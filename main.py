@@ -4,9 +4,9 @@ from config import *
 
 app = Client(
     "TagAllBot",
-    api_id= 37535960
-    api_hash= "e89c6a21da912026e645f4132bd4eba7"
-    bot_token= "8721566005:AAHvdIHLgElJRBgdr8WaVaG8UXnndUevZAE"
+    api_id=37535960,
+    api_hash="e89c6a21da912026e645f4132bd4eba7",
+    bot_token="8721566005:AAHvdIHLgElJRBgdr8WaVaG8UXnndUevZAE"
 )
 
 @app.on_message(filters.command("tagall"))
