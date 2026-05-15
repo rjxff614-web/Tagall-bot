@@ -4,8 +4,6 @@ asyncio.set_event_loop(asyncio.new_event_loop())
 
 from pyrogram import Client, filters
 
-from pyrogram import Client, filters
-
 from config import *
 
 app = Client(
